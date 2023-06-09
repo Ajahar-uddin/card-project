@@ -3,14 +3,12 @@ import { useState } from "react";
 import Cards from "./Cards";
 import SelectedCard from "./SelectedCard";
 
-
-
 function Container({ data }) {
-    const [active, setActive] = useState(0);
+  const [active, setActive] = useState(0);
 
-    const getIndex = (index) => {
-        setActive(index);
-      };
+  const getIndex = (index) => {
+    setActive(index);
+  };
   return (
     <>
       <SelectedCard data={data} index={active} />
@@ -27,7 +25,7 @@ function Container({ data }) {
           />
         ))}
       </div>
-      </>
+    </>
   );
 }
 
