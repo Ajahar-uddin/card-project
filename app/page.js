@@ -8,8 +8,8 @@ async function getCardData() {
 export default async function Home() {
   const data = await getCardData();
   return (
-    <>
+    <div>
       <Container data={data} />
-    </>
+    </div>
   );
 }
