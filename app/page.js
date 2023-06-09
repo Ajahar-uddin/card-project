@@ -1,7 +1,7 @@
 import Container from "./Container";
 
 async function getCardData() {
-  const res = await fetch(`https://card-project-blue.vercel.app/api/card`);
+  const res = await fetch(`${process.env.BASE_URL}/api/card`);
   return res.json();
 }
 
