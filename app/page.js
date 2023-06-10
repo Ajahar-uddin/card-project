@@ -1,4 +1,4 @@
-import Container from "./Container";
+import Container from "./components/Container";
 
 async function getCardData() {
   const res = await fetch(`https://randomuser.me/api/?inc=gender,name,nat,location,picture,email&results=%2020`);

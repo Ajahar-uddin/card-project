@@ -11,8 +11,10 @@ function Container({ data }) {
   };
   return (
     <>
-      <SelectedCard data={data} index={active} />
-      <div className="grid grid-cols-4 gap-[24px] py-[120px] ">
+      <div className="flex justify-center pt-[70px]" >
+        <SelectedCard data={data} index={active} />
+      </div>
+      <div className="grid grid-cols-2 md:grid-cols-4  gap-[12px] md:gap-[24px] py-[120px] px-[20px] md:px-0 ">
         {data.results.map((el, i) => (
           <Cards
             key={i}
