@@ -9,6 +9,7 @@ function Container({ data }) {
   const getIndex = (index) => {
     setActive(index);
   };
+ 
   return (
     <>
       <div className="flex justify-center pt-[70px]" >
