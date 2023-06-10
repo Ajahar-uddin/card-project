@@ -31,7 +31,7 @@ function SelectedCard({ data, index }) {
           {data.results[index].location.timezone.offset}
           {" - "}
           {data.results[index].location.timezone.description} <br />
-          <span className="text-[#8a8a8a]"> {data.results[index].gender}</span>
+          <span className="text-[#8a8a8a] capitalize "> {data.results[index].gender}</span>
         </p>
       </div>
     </div>

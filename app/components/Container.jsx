@@ -12,7 +12,7 @@ function Container({ data }) {
  
   return (
     <>
-      <div className="flex justify-center pt-[40px] md:pt-[70px]" >
+      <div className="flex  justify-center pt-[40px] md:pt-[70px]" >
         <SelectedCard data={data} index={active} />
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4  gap-[10px] md:gap-[24px] py-[60px] md:py-[120px] px-[20px] md:px-0 ">
