@@ -8,13 +8,13 @@ function SelectedCard({ data, index }) {
       <div className="flex items-center justify-center md:justify-normal md:mr-[64px] ">
         <Image
           src={data.results[index].picture.large}
-          alt="proiflePic"
+          alt="proifle"
           height={100}
           width={100}
           className="rounded-full w-[70px] md:w-[128px] "
         />
       </div>
-      <div className="  " >
+      <div className="" >
         <p className=" tracking-[-1.5px] underline text-[30px] text-center md:text-left md:text-[64px] md:leading-[64px] text-[#E16259] font-bold ">
           {data.results[index].name.first}
         </p>
